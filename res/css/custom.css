@@ -1,0 +1,163 @@
+/* header section--------------------------------------------------------------------------------------------------------------------------*/
+.header{
+	padding: 10px 50px;
+	background-color: #165669;
+	color: #fff;
+}
+.header-tag{
+	color: #888;
+}
+.header>div{
+  float: left;
+  padding: 0px 15px;
+}
+.header>div>div{
+  float: left;
+  padding: 0px 15px;
+}
+.header>.menu{
+  float: right;
+  padding: 0px 15px;
+}
+.header>.menu>div>a{
+	color:#fff;
+	text-decoration: none;
+}
+.header>.menu>div>a:hover{
+	color:#d2d2d2;
+}
+.header>.sm-menu>div>a{
+	color:#fff !important;
+	text-decoration: none !important;
+} 
+.header>.sm-menu>div>a:hover{
+	color:#d2d2d2 !important;
+}
+.show-cstm-sm{
+	display: none;
+}
+.hidden{
+	display: none;
+}
+/* Main Section---------------------------------------------------------------------------------------------------------------------------*/
+.main{
+	padding: 30px 50px;
+}
+.form-login{
+	padding: 50px;
+	border:1px solid #9a9a9a;
+}
+.form-login input{
+	margin-bottom:10px;
+	padding: 10px;
+	width: 100%;
+}
+.login-form{
+	padding: 10px 80px;
+}
+.login-form>b{
+	font-size: 22px;
+}
+.login-form>form{
+	padding-top: 10px; 
+}
+.login-form>form>input{
+	width: 100%;
+	padding: 10px;
+}
+/*registration.php*/
+.reg_err_msg{
+	border:1px solid red;
+	color:red;
+	padding: 10px;
+}
+/*home.php*/
+.btn-ico{
+	font-size: 30px;
+}
+.dash a{
+	text-decoration: none;
+	cursor: pointer;
+}
+.dash div{
+	margin-bottom:10px;
+}
+.dash-btn{
+	border:1px solid #165669;
+	padding: 50px 0px;
+	box-shadow: 4px 4px 4px #ddd;
+}
+.dash-btn:hover{
+	box-shadow: 4px 5px 5px #ccc;
+}
+.dash-btn:active{
+	box-shadow: 2px 1px 1px #ccc;
+}
+
+.recent{
+	padding: 50px 0px 0px 0px;
+}
+.logout-btn a{
+	text-decoration: none;
+	color:#fff !important;
+}
+/* Footer section-------------------------------------------------------------------------------------------------------------------------*/
+.footer{
+	border-top: 1px solid #eee;
+	padding: 20px 10px;
+	color: #888;
+}
+/*createpolling.php*/
+.poll textarea[name=qus]{
+	resize: none !important;margin-bottom: 10px;
+}
+.poll input[type=text]{
+	margin-bottom: 10px;
+	padding: 10px;
+}
+/*Presentation.php*/
+.presentation_box{
+	margin-top: 50px;
+}
+.presentation_box .col-lg-8{
+
+}
+.presentation_box .option{
+	background-color: #fff;
+	border: 1px solid #d4d4d4;
+	padding: 15px;
+}
+.presentation_box .option .btn1,.btn2{
+	float: left;
+	margin:10px;
+	border: 1px solid #d4d4d4;
+	padding: 10px;
+	cursor:pointer;
+}
+/*accountsetting.php----------------------------------------------------------------------------------------------------------*/
+.acc-form{
+	padding: 50px 0px;
+	margin-bottom: 15px;
+}
+.accin{
+	margin:5px 0px;
+	padding: 4px 4px 6px 4px !important; 
+}
+/*Media queries----------------------------------------------------------------------------------------------------------------------------*/
+@media(max-width: 768px){
+	.login-form{
+		padding: 10px 30px;
+	}
+	.main{
+		padding: 30px 0px !important;
+	}
+	.hidden-cstm-sm{
+		display: none;
+	}
+	.show-cstm-sm{
+		display: block;
+	}
+	.header{
+		padding: 10px 0px;
+	}
+}
